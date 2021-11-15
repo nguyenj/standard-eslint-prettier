@@ -1,0 +1,46 @@
+{
+  "name": "standard-eslint-prettier",
+  "version": "1.0.0-rc.0",
+  "description": "Shareable ESLint and Prettier configuration",
+  "keywords": [
+    "JavaScript style conventions",
+    "code",
+    "enfore",
+    "eslint",
+    "lint",
+    "linter",
+    "minimal",
+    "policy",
+    "simple",
+    "standard",
+    "style"
+  ],
+  "author": "John Nguyen <hello@jnguyen.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenj/standard-eslint-prettier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyenj/standard-eslint-prettier/issues"
+  },
+  "homepage": "https://github.com/nguyenj/standard-eslint-prettier#readme",
+  "peerDependencies": {
+    "eslint": ">=6 <9",
+    "prettier": "2.4.1",
+    "typescript": ">=3.3.1 <4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1"
+  }
+}
